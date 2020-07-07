@@ -1,0 +1,15 @@
+{
+  "name": "ieee",
+  "version": "1.0.0",
+  "description": "IEEE SNIST official page",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "SNIST",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1"
+  }
+}
