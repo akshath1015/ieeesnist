@@ -91,7 +91,7 @@ main {
     border-bottom: 4px solid black;
 }
 #h2-div {
-    width: 50%;
+    width: 30%;
     position: relative;
     margin-bottom: 10px;
     left: 25vw;
@@ -181,7 +181,9 @@ main {
     opacity:0.79;
     cursor: pointer;
 }
-
+#catalogue a {
+    text-decoration: none;
+}
 #catalogue .card {
     height: 80%;
     background: #fff;
@@ -915,4 +917,58 @@ footer a {
 #forms .col-md-6:hover {
     transform: translateY(-8px);
     cursor: pointer;
+}
+
+
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width : 600px) {
+    #ieee-sb-top img {
+        height: 90%;
+    }
+}
+@media only screen and (min-width: 600px) {
+    #ieee-sb-top img {
+        height: 70%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #ieee-sb-top img {
+        height: 30%;
+    }
+}
+
+
+
+@media only screen and (max-width : 600px) {
+    #ieee-hydsec-top img {
+        height: 90%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    #ieee-hydsec-top img {
+        height: 70%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #ieee-hydsec-top img {
+        height: 30%;
+    }
+}
+
+@media only screen and (max-width : 600px) {
+    #team-box{
+        padding:1px;
+    }
+}
+
+
+@media only screen and (max-width : 600px) {
+    #founder img {
+        width:50%;
+        height:50%;
+    }
 }
